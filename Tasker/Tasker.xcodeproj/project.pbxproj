@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AF5112F1639F15F00CF2BF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF5112E1639F15F00CF2BF6 /* UIKit.framework */; };
+		4AF511311639F15F00CF2BF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF511301639F15F00CF2BF6 /* Foundation.framework */; };
+		4AF511331639F15F00CF2BF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF511321639F15F00CF2BF6 /* CoreGraphics.framework */; };
+		4AF511351639F15F00CF2BF6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF511341639F15F00CF2BF6 /* CoreData.framework */; };
+		4AF5113B1639F15F00CF2BF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AF511391639F15F00CF2BF6 /* InfoPlist.strings */; };
+		4AF5113D1639F15F00CF2BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5113C1639F15F00CF2BF6 /* main.m */; };
+		4AF511411639F15F00CF2BF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF511401639F15F00CF2BF6 /* AppDelegate.m */; };
+		4AF511431639F15F00CF2BF6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AF511421639F15F00CF2BF6 /* Default.png */; };
+		4AF511451639F15F00CF2BF6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AF511441639F15F00CF2BF6 /* Default@2x.png */; };
+		4AF511471639F15F00CF2BF6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AF511461639F15F00CF2BF6 /* Default-568h@2x.png */; };
+		4AF5114A1639F15F00CF2BF6 /* Tasker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AF511481639F15F00CF2BF6 /* Tasker.xcdatamodeld */; };
+		4AF511531639F18C00CF2BF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF511511639F18C00CF2BF6 /* ViewController.m */; };
+		4AF511541639F18C00CF2BF6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF511521639F18C00CF2BF6 /* ViewController.xib */; };
+		4AF511571639FE1200CF2BF6 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF511561639FE1200CF2BF6 /* Task.m */; };
+		4AF5115B163A033E00CF2BF6 /* TaskEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF51159163A033E00CF2BF6 /* TaskEditViewController.m */; };
+		4AF5115C163A033E00CF2BF6 /* TaskEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5115A163A033E00CF2BF6 /* TaskEditViewController.xib */; };
+		4AF51184163A048100CF2BF6 /* CustomPickerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF51181163A048100CF2BF6 /* CustomPickerDataSource.m */; };
+		4AF51185163A048100CF2BF6 /* UNActionPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF51183163A048100CF2BF6 /* UNActionPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AF5112A1639F15F00CF2BF6 /* Tasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF5112E1639F15F00CF2BF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AF511301639F15F00CF2BF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AF511321639F15F00CF2BF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AF511341639F15F00CF2BF6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4AF511381639F15F00CF2BF6 /* Tasker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tasker-Info.plist"; sourceTree = "<group>"; };
+		4AF5113A1639F15F00CF2BF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AF5113C1639F15F00CF2BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AF5113E1639F15F00CF2BF6 /* Tasker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tasker-Prefix.pch"; sourceTree = "<group>"; };
+		4AF5113F1639F15F00CF2BF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AF511401639F15F00CF2BF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AF511421639F15F00CF2BF6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4AF511441639F15F00CF2BF6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4AF511461639F15F00CF2BF6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4AF511491639F15F00CF2BF6 /* Tasker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tasker.xcdatamodel; sourceTree = "<group>"; };
+		4AF511501639F18C00CF2BF6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AF511511639F18C00CF2BF6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AF511521639F18C00CF2BF6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		4AF511551639FE1200CF2BF6 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		4AF511561639FE1200CF2BF6 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		4AF51158163A033E00CF2BF6 /* TaskEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskEditViewController.h; sourceTree = "<group>"; };
+		4AF51159163A033E00CF2BF6 /* TaskEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskEditViewController.m; sourceTree = "<group>"; };
+		4AF5115A163A033E00CF2BF6 /* TaskEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskEditViewController.xib; sourceTree = "<group>"; };
+		4AF51180163A048100CF2BF6 /* CustomPickerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomPickerDataSource.h; path = ../../../../Downloads/TaskManager/TaskManager/CustomPickerDataSource.h; sourceTree = "<group>"; };
+		4AF51181163A048100CF2BF6 /* CustomPickerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomPickerDataSource.m; path = ../../../../Downloads/TaskManager/TaskManager/CustomPickerDataSource.m; sourceTree = "<group>"; };
+		4AF51182163A048100CF2BF6 /* UNActionPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNActionPicker.h; path = ../../../../Downloads/TaskManager/TaskManager/UNActionPicker.h; sourceTree = "<group>"; };
+		4AF51183163A048100CF2BF6 /* UNActionPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNActionPicker.m; path = ../../../../Downloads/TaskManager/TaskManager/UNActionPicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AF511271639F15F00CF2BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF5112F1639F15F00CF2BF6 /* UIKit.framework in Frameworks */,
+				4AF511311639F15F00CF2BF6 /* Foundation.framework in Frameworks */,
+				4AF511331639F15F00CF2BF6 /* CoreGraphics.framework in Frameworks */,
+				4AF511351639F15F00CF2BF6 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AF5111F1639F15E00CF2BF6 = {
+			isa = PBXGroup;
+			children = (
+				4AF511361639F15F00CF2BF6 /* Tasker */,
+				4AF5112D1639F15F00CF2BF6 /* Frameworks */,
+				4AF5112B1639F15F00CF2BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AF5112B1639F15F00CF2BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5112A1639F15F00CF2BF6 /* Tasker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AF5112D1639F15F00CF2BF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5112E1639F15F00CF2BF6 /* UIKit.framework */,
+				4AF511301639F15F00CF2BF6 /* Foundation.framework */,
+				4AF511321639F15F00CF2BF6 /* CoreGraphics.framework */,
+				4AF511341639F15F00CF2BF6 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AF511361639F15F00CF2BF6 /* Tasker */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5113F1639F15F00CF2BF6 /* AppDelegate.h */,
+				4AF511401639F15F00CF2BF6 /* AppDelegate.m */,
+				4AF51158163A033E00CF2BF6 /* TaskEditViewController.h */,
+				4AF5115D163A040500CF2BF6 /* UNAction */,
+				4AF51159163A033E00CF2BF6 /* TaskEditViewController.m */,
+				4AF5115A163A033E00CF2BF6 /* TaskEditViewController.xib */,
+				4AF511501639F18C00CF2BF6 /* ViewController.h */,
+				4AF511511639F18C00CF2BF6 /* ViewController.m */,
+				4AF511521639F18C00CF2BF6 /* ViewController.xib */,
+				4AF511551639FE1200CF2BF6 /* Task.h */,
+				4AF511561639FE1200CF2BF6 /* Task.m */,
+				4AF511481639F15F00CF2BF6 /* Tasker.xcdatamodeld */,
+				4AF511371639F15F00CF2BF6 /* Supporting Files */,
+			);
+			path = Tasker;
+			sourceTree = "<group>";
+		};
+		4AF511371639F15F00CF2BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AF511381639F15F00CF2BF6 /* Tasker-Info.plist */,
+				4AF511391639F15F00CF2BF6 /* InfoPlist.strings */,
+				4AF5113C1639F15F00CF2BF6 /* main.m */,
+				4AF5113E1639F15F00CF2BF6 /* Tasker-Prefix.pch */,
+				4AF511421639F15F00CF2BF6 /* Default.png */,
+				4AF511441639F15F00CF2BF6 /* Default@2x.png */,
+				4AF511461639F15F00CF2BF6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AF5115D163A040500CF2BF6 /* UNAction */ = {
+			isa = PBXGroup;
+			children = (
+				4AF51180163A048100CF2BF6 /* CustomPickerDataSource.h */,
+				4AF51181163A048100CF2BF6 /* CustomPickerDataSource.m */,
+				4AF51182163A048100CF2BF6 /* UNActionPicker.h */,
+				4AF51183163A048100CF2BF6 /* UNActionPicker.m */,
+			);
+			name = UNAction;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AF511291639F15F00CF2BF6 /* Tasker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF5114D1639F15F00CF2BF6 /* Build configuration list for PBXNativeTarget "Tasker" */;
+			buildPhases = (
+				4AF511261639F15F00CF2BF6 /* Sources */,
+				4AF511271639F15F00CF2BF6 /* Frameworks */,
+				4AF511281639F15F00CF2BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tasker;
+			productName = Tasker;
+			productReference = 4AF5112A1639F15F00CF2BF6 /* Tasker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AF511211639F15E00CF2BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Eventegrate;
+			};
+			buildConfigurationList = 4AF511241639F15E00CF2BF6 /* Build configuration list for PBXProject "Tasker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AF5111F1639F15E00CF2BF6;
+			productRefGroup = 4AF5112B1639F15F00CF2BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF511291639F15F00CF2BF6 /* Tasker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AF511281639F15F00CF2BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF5113B1639F15F00CF2BF6 /* InfoPlist.strings in Resources */,
+				4AF511431639F15F00CF2BF6 /* Default.png in Resources */,
+				4AF511451639F15F00CF2BF6 /* Default@2x.png in Resources */,
+				4AF511471639F15F00CF2BF6 /* Default-568h@2x.png in Resources */,
+				4AF511541639F18C00CF2BF6 /* ViewController.xib in Resources */,
+				4AF5115C163A033E00CF2BF6 /* TaskEditViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AF511261639F15F00CF2BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF5113D1639F15F00CF2BF6 /* main.m in Sources */,
+				4AF511411639F15F00CF2BF6 /* AppDelegate.m in Sources */,
+				4AF5114A1639F15F00CF2BF6 /* Tasker.xcdatamodeld in Sources */,
+				4AF511531639F18C00CF2BF6 /* ViewController.m in Sources */,
+				4AF511571639FE1200CF2BF6 /* Task.m in Sources */,
+				4AF5115B163A033E00CF2BF6 /* TaskEditViewController.m in Sources */,
+				4AF51184163A048100CF2BF6 /* CustomPickerDataSource.m in Sources */,
+				4AF51185163A048100CF2BF6 /* UNActionPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AF511391639F15F00CF2BF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF5113A1639F15F00CF2BF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AF5114B1639F15F00CF2BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AF5114C1639F15F00CF2BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AF5114E1639F15F00CF2BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasker/Tasker-Prefix.pch";
+				INFOPLIST_FILE = "Tasker/Tasker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4AF5114F1639F15F00CF2BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasker/Tasker-Prefix.pch";
+				INFOPLIST_FILE = "Tasker/Tasker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AF511241639F15E00CF2BF6 /* Build configuration list for PBXProject "Tasker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF5114B1639F15F00CF2BF6 /* Debug */,
+				4AF5114C1639F15F00CF2BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF5114D1639F15F00CF2BF6 /* Build configuration list for PBXNativeTarget "Tasker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF5114E1639F15F00CF2BF6 /* Debug */,
+				4AF5114F1639F15F00CF2BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AF511481639F15F00CF2BF6 /* Tasker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AF511491639F15F00CF2BF6 /* Tasker.xcdatamodel */,
+			);
+			currentVersion = 4AF511491639F15F00CF2BF6 /* Tasker.xcdatamodel */;
+			path = Tasker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4AF511211639F15E00CF2BF6 /* Project object */;
+}
